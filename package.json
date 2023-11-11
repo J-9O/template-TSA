@@ -1,0 +1,23 @@
+{
+  "name": "tauri_template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "tauri": "tauri",
+    "clean": "rm -rf dist && rm -rf tauri/target && rm -rf tauri/src-taur"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^4.0.3",
+    "@tauri-apps/api": "^1.5.1",
+    "astro": "^3.5.2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.6",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.4"
+  }
+}
